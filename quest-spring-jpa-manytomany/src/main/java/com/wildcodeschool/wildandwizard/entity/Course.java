@@ -39,4 +39,8 @@ public class Course {
     }
 
     public List<Wizard> getWizards() { return wizards; }
+    
+    public void setWizards(List<Wizard> wizards) {
+        this.wizards = wizards;
+    }
 }
